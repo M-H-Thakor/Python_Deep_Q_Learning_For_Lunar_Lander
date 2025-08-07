@@ -65,9 +65,16 @@ pip install gymnasium[box2d] torch numpy imageio
 ## 📊 Sample Output
 
 ```
-Episode 100    Average Score: 120.35
-Episode 200    Average Score: 202.56
-Environment solved in 195 episodes! Average Score: 200.01
+Episode 100	Average Score: -146.34
+Episode 200	Average Score: -82.22
+Episode 300	Average Score: -52.43
+Episode 400	Average Score: -40.38
+Episode 500	Average Score: 22.91
+Episode 600	Average Score: 53.82
+Episode 700	Average Score: 195.99
+Episode 800	Average Score: 239.58
+
+Environment solved in 700 episodes!	Average Score: 239.58
 ```
 
 
