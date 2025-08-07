@@ -17,10 +17,7 @@ This project implements a Deep Q-Learning (DQN) agent to master the **LunarLande
 
 ## 📽 Demo Video
 
-Watch the trained agent successfully land the lunar module in the simulation:
-
-> ⚠️ Ensure the video file `demo_video.mp4` is in your repo folder or hosted online for GitHub preview.
-
+Watch the trained agent successfully land the lunar module in the simulation:                
 [![Demo Video](demo_video.mp4)](demo_video.mp4)
 
 ---
@@ -41,3 +38,39 @@ Install the dependencies using pip:
 
 ```bash
 pip install gymnasium[box2d] torch numpy imageio
+
+```
+
+## ✅ How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/Python_Deep_Q_Learning_For_Lunar_Lander.git
+   cd Python_Deep_Q_Learning_For_Lunar_Lander
+   ```
+
+2. Install the dependencies:
+   ```bash
+   pip install gymnasium[box2d] torch numpy imageio
+   ```
+
+3. Run the main script:
+   ```bash
+   python deep_q_learning_for_lunar_landing.py
+   ```
+
+4. After training, the agent’s gameplay video will be saved as `demo_video.mp4`.
+
+
+## 📊 Sample Output
+
+```
+Episode 100    Average Score: 120.35
+Episode 200    Average Score: 202.56
+Environment solved in 195 episodes! Average Score: 200.01
+```
+
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
